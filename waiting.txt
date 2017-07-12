@@ -1,0 +1,7 @@
+
+
+add database --> connection form
+			 --> connection admin
+
+login
+

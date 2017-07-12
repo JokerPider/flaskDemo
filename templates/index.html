@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}content page{% endblock %}
+
+{% block content %}
+	{% for data in datas %}
+		<h3>title: {{ data[title] }}</h3>
+		<p>content: {{ data[content] }}</p>
+	{% endfor %}
+{% endblock %}

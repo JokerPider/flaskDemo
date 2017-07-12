@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %} Cup-Cake Time {% endblock %}
+{% block content %}
+	<form method='POST'>
+		title: {{ form.title() }}<br>
+		content: {{ form.content() }}<br>
+		{{ form.submit() }}
+	</form>
+{% endblock %}
